@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lisbon Tahwineyi's Portfolio
 
 ![Header Banner](https://via.placeholder.com/1200x400/1a1a1a/ffffff?text=Innovating+with+Java+%26+AI+-+2025)  
@@ -109,3 +110,7 @@ References available upon request. Reach out for Java, AI, or InsureTech collabo
 <a href="https://www.buymeacoffee.com/lisbontahwineyi"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/></a>
 
 ---
+=======
+# lisbontahwineyiportifolio
+This is the portfolio for Lisbon Tahwineyi
+>>>>>>> 32e18111b6d93eaca3aba62042ca395578e81f3a
