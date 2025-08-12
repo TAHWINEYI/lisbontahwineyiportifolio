@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # Lisbon Tahwineyi's Portfolio
-
-![Header Banner](https://via.placeholder.com/1200x400/1a1a1a/ffffff?text=Innovating+with+Java+%26+AI+-+2025)  
-*Replace with an AI-generated banner (e.g., via Midjourney or DALL-E) showcasing futuristic code/AI visuals. Use a dark/light theme-compatible palette.*
-
 ![Waving GIF](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)  
 **Hi, I'm Lisbon!**  
 🔗 [LinkedIn](https://www.linkedin.com/in/lisbontahwineyi93) | 📧 [lisbontahwineyi@gmail.com](mailto:lisbontahwineyi@gmail.com)
@@ -109,8 +104,3 @@ References available upon request. Reach out for Java, AI, or InsureTech collabo
 ### Support Me  
 <a href="https://www.buymeacoffee.com/lisbontahwineyi"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/></a>
 
----
-=======
-# lisbontahwineyiportifolio
-This is the portfolio for Lisbon Tahwineyi
->>>>>>> 32e18111b6d93eaca3aba62042ca395578e81f3a
