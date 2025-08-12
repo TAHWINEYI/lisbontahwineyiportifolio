@@ -109,8 +109,3 @@ References available upon request. Reach out for Java, AI, or InsureTech collabo
 ### Support Me  
 <a href="https://www.buymeacoffee.com/lisbontahwineyi"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/></a>
 
----
-=======
-# lisbontahwineyiportifolio
-This is the portfolio for Lisbon Tahwineyi
->>>>>>> 32e18111b6d93eaca3aba62042ca395578e81f3a
