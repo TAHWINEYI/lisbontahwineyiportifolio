@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lisbon Tahwineyi - Java Developer</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<style>
+:root {
+  --accent: #ffaf01dc;
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --text-light: rgba(235, 226, 209, 0.95);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: url('./Static/rsourcs/background_photo.png') no-repeat center center fixed; 
+  background-size: cover;
+  color: var(--text-light);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass container holding everything */
+.main-content {
+  position: relative;
+  width: 85%;
+  max-width: 900px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(5px);
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.15);
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Top row: logo + nav */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: var(--text-light);
+
+}
+navy {
+  display:flex;
+  gap: 20px;
+  align-items: self-start;
+}
+navy a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+navy a:hover {
+  color: var(--text-light);
+
+}
+
+/* Middle content */
+.intro {
+  max-width: 500px;
+  padding-bottom:30px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+h1 span {
+  color: var(--accent);
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.tagline {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.tagline span {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.btn-outline {
+  border: 1px solid rgba(255,255,255,0.4);
+  color: var(--text-light);
+}
+.btn-outline:hover {
+  background: rgba(255,255,255,0.12);
+}
+.btn-solid {
+  background: var(--accent);
+  color: #111;
+}
+.btn-solid:hover {
+  background: #e6a200;
+}
+
+/* Social icons bottom right inside container */
+.socials {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.socials a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-light);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.socials a:hover {
+  background: var(--accent);
+  color: #000;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="main-content">
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="logo">
+      <img src="./Static/rsourcs/logo.PNG" alt="Lisbon Tahwineyi" />
+    </div>
+    <nav>
+    <navy>
+     <a href="TEL:+2787914054"><i class="fas fa-phone"></i>+2787914054</a>
+    </navy>
+
+      <a href="./Static/rsourcs/Lisbon_Tahwineyi_java_cv.pdf">Resume</a>
+      <a href="./Static/rsourcs/about.html">About Me</a>
+    </nav>
+  </div>
+
+  <!-- Middle content -->
+  <div class="intro">
+    <h1><span>Hello,</span><br>I'm Lisbon Tahwineyi</h1>
+	<h1></h1>
+    <h3></h3>
+	<h1></h1>
+	<h1></h1>
+    <p class="tagline">
+      A <span>Software Applications Developer</span> specialising in Spring Boot, RESTful APIs, and Database Optimisation.
+	  Passionate about leveraging Generative AI and Agentic AI and modern Java frameworks to solve complex problems.
+    </p>
+    <div class="buttons">
+      <a href="https://github.com/TAHWINEYI" class="btn btn-solid" target="_blank">View my work</a>
+      <a href="./Static/rsourcs/Lisbon_Tahwineyi_java_cv.pdf" class="btn btn-outline" target="_blank">My Resume</a>
+    
+    </div>
+  </div>
+
+  <!-- Social media bottom-right -->
+  <div class="socials">
+    <a href="TEL:+2787914054"><i class="fas fa-phone"></i></a>
+    <a href="mailto:lisbontahwineyi@gmail.com>"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/lisbontahwineyi93" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/TAHWINEYI" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="./Static/rsourcs/whatsapp_cod.jpeg" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Lisbon Tahwineyi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <style>
+        :root {
+          --accent: #ffaf01dc;
+          --glass-bg: rgba(255, 255, 255, 0.08);
+          --text-light: rgba(235, 226, 209, 0.95);
+          }
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            background-image: url('./background_photo.png');
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            height: 80%;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .sidebar {
+            width: 30%;
+            display: flex;
+            background-image: url('./icons/WhatsApp\ Image\ 2025-08-10.jpg');
+        }
+        .icon-column {
+            width: 60px;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+            gap: 30px;
+            height: 100%;
+        }
+        .menu-btn {
+            background-color: orange;
+            width: 30px;
+            height: 30px;
+        }
+        .icon-column i {
+            color: orange;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        .download-icon {
+            margin-top: auto;
+            color: orange;
+            font-size: 1.5em;
+        }
+        .sidebar-skills {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px 0;
+            gap: 10px;
+            background-size: cover;
+        }
+        .profile-column img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        .icons {
+            display: flexbox;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            max-width: 150px;
+            margin-bottom: 0%;
+        }
+        .icons img {
+            width: 30px;
+            height: 30px;
+        }
+        .content {
+            width: 70%;
+            padding: 20px;
+        }
+        .content h1 {
+            color: orange;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .location {
+            color: orange;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .description {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+        .content h2 {
+            color: orange;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service {
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+        .service i {
+            color: orange;
+            font-size: 2em;
+            margin-top: 5px;
+        }
+        .service-text h3 {
+            color: orange;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .service-text p {
+            color: white;
+            font-size: 0.9em;
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left sidebar -->
+        <div class="sidebar">
+            <div class="icon-column">
+                <a class="menu-btn" href="file:///C:/Users/Panashe/lisbontahwineyiportifolio/home.html"></a>
+                <a href="file:///C:/Users/Panashe/lisbontahwineyiportifolio/home.html"><i class="fas fa-home"></i></a>
+                <a href="TEL:+2787914054"><i class="fas fa-phone"></i></a>
+                <a href="mailto:lisbontahwineyi@gmail.com>"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/lisbontahwineyi93" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/TAHWINEYI" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="./whatsapp_cod.jpeg" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <i class="fas fa-cloud-download-alt download-icon"></i>
+            </div>
+
+            <div class="sidebar-skills">
+          
+            </div>
+        </div>
+
+        <!-- Right content -->
+        <div class="content">
+            <h1>Lisbon Tahwineyi, MA</h1>
+            <p class="location"><i class="fas fa-location"></i> Cape Town, South Africa</p>
+            <p class="description">Results-driven Java Developer with 3+ years of expertise in Spring Boot, RESTful APIs, and database optimization within the InsureTech sector. Proven ability to enhance system performance, integrate critical payment gateways, and develop scalable micro-services. Passionate about leveraging Generative AI, Agentic AI, and modern Java frameworks to solve complex problems.</p>
+            <h2>Work Experience</h2>
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-laptop"></i>
+                    <div class="service-text">
+                        <h3>development</h3>
+                        <p>Building custom tailored solutions using Spring Boot and Hibernate, reducing deployment time by 25%.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="fas fa-rocket"></i>
+                    <div class="service-text">
+                        <h3>API integration</h3>
+                        <p>Integrating third-party APIs like Ecocash for seamless payments and transactions.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="fas fa-database"></i>
+                    <div class="service-text">
+                        <h3>database</h3>
+                        <p>Optimizing database performance by 20% with Oracle PL/SQL scripting, indexing, and query tuning.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="fas fa-shield-alt"></i>
+                    <div class="service-text">
+                        <h3>security</h3>
+                        <p>Integrating secure payment gateways like Ecocash API, processing 5000+ transactions monthly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
